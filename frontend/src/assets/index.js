@@ -11,6 +11,13 @@ import manufacturer from "./manufacturer.jpg";
 import office from "./office.jpg";
 import retail from "./retail.jpg";
 import school from "./school.jpg";
+import map from "./map.jpg";
+import cleaningprod from "./cleaningprod.jpg";
+import facilitiesprod from "./facilitiesprod.jpg";
+import foodprod from "./foodprod.jpg";
+import janitorialprod from "./janitorialprod.jpg";
+import officeprod from "./officeprod.jpg";
+import packagingprod from "./packagingprod.jpg";
 
 export {
 	genpak,
@@ -26,4 +33,11 @@ export {
 	office,
 	retail,
 	school,
+	map,
+	cleaningprod,
+	facilitiesprod,
+	foodprod,
+	janitorialprod,
+	officeprod,
+	packagingprod,
 };

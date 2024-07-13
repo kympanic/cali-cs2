@@ -3,8 +3,8 @@ import { detailItems } from "../../static/data";
 
 const Details = () => {
 	return (
-		<div className="w-11/12 mx-auto  flex flex-col justify-center items-center mt-10 h-[600px]">
-			<div className="mb-5">
+		<div className="w-11/12 mx-auto  flex flex-col justify-center items-center mt-10 h-[500px]">
+			<div className="mb-5 mt-20">
 				<span className="text-4xl font-bold font-robot tracking-widest">
 					Empower a Clean Environment,{" "}
 					<span className="text-blue-500">Everyday</span>, Everywhere
@@ -17,7 +17,7 @@ const Details = () => {
 					we redefine possibilities
 				</span>
 			</div>
-			<div className="flex justify-between items-center gap-20">
+			<div className="flex justify-between items-center gap-20 mt-20">
 				{detailItems &&
 					detailItems.map((item) => (
 						<div

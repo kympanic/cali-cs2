@@ -10,11 +10,11 @@ const FeaturedProducts = () => {
 	});
 
 	return (
-		<div className="w-11/12 mx-auto mt-10">
-			<div className="text-3xl font-bold tracking-widest font-roboto border-b-4 border-b-blue-700 mb-10">
+		<div className="w-11/12 mx-auto mt-24">
+			<div className="text-3xl font-bold tracking-widest font-roboto border-b-4 border-b-green-700 mb-10">
 				Featured Products
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0 ">
 				{filteredProducts.map((product) => {
 					return (
 						<FeaturedProductCard
