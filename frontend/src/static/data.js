@@ -1,3 +1,5 @@
+import { school, hospital, manufacturer, office, retail } from "../assets";
+
 export const navItems = [
 	{
 		title: "Home",
@@ -14,5 +16,28 @@ export const navItems = [
 	{
 		title: "Contact",
 		url: "/contact",
+	},
+];
+
+export const detailItems = [
+	{
+		title: "Hospital",
+		img: hospital,
+	},
+	{
+		title: "School",
+		img: school,
+	},
+	{
+		title: "Manufacturer",
+		img: manufacturer,
+	},
+	{
+		title: "Office",
+		img: office,
+	},
+	{
+		title: "Retail",
+		img: retail,
 	},
 ];

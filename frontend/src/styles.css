@@ -1,0 +1,8 @@
+.text-overlay {
+	position: relative;
+	z-index: 1;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(to right, gray 80%, gray 80%);
+	mix-blend-mode: difference;
+}

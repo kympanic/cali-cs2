@@ -1,6 +1,8 @@
 import React from "react";
 import { navItems } from "../../static/data";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 const NavItems = ({ active }) => {
 	console.log(navItems);
 	return (
@@ -13,7 +15,7 @@ const NavItems = ({ active }) => {
 							className={`${
 								active === index + 1
 									? "text-[#050f6bcb]"
-									: "text-black"
+									: "text-gray-700"
 							} font-[500] font-roboto px-6 cursor-pointer mr-[10px] ml-[10px]`}
 						>
 							{i.title}
