@@ -23,7 +23,7 @@ const Products = () => {
 			</div>
 
 			<div className="grid grid-cols-2 grid-rows-3 gap-5 items-center ">
-				<div className="w-[450px]  h-[150px] flex justify-center items-center rounded-lg relative overflow-hidden cursor-pointer">
+				<div className="w-[450px]  h-[150px] flex justify-center items-center rounded-lg relative overflow-hidden cursor-pointer ">
 					<img
 						className="object-cover brightness-50 w-full h-full absolute transition-transform duration-200 ease-in-out transform hover:scale-110"
 						src={janitorialprod}

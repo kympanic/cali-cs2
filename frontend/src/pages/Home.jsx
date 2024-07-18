@@ -6,7 +6,7 @@ import Details from "../components/Home/Details";
 import FeaturedProducts from "../components/Products/FeaturedProducts";
 import Contact from "../components/Home/Contact";
 import Products from "../components/Home/Products";
-
+import Help from "../components/Home/Help";
 const Home = () => {
 	return (
 		<>
@@ -17,6 +17,7 @@ const Home = () => {
 			<Contact />
 			<FeaturedProducts />
 			<Products />
+			<Help />
 			<div className="min-h-screen bg-white"></div>
 		</>
 	);

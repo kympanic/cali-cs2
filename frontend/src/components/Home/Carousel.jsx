@@ -39,11 +39,7 @@ const Carousel = () => {
 		),
 	};
 	return (
-		<motion.div
-			className="relative w-full h-[390px] pt-10 bg-blue-100 ounded-md mx-auto"
-			initial={{ opacity: 0 }}
-			whileInView={{ opacity: 1, transition: { duration: 2 } }}
-		>
+		<motion.div className="relative w-full h-[390px] pt-10 bg-blue-100 rounded-md mx-auto">
 			<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
 				<Slider {...settings}>
 					<div className="w-full">
