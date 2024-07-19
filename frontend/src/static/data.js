@@ -41,3 +41,15 @@ export const detailItems = [
 		img: retail,
 	},
 ];
+
+export const footerSupportLinks = [
+	{
+		name: "Reviews",
+	},
+	{
+		name: "Contact Us",
+	},
+	{
+		name: "Shipping",
+	},
+];

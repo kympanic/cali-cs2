@@ -7,6 +7,7 @@ import FeaturedProducts from "../components/Products/FeaturedProducts";
 import Contact from "../components/Home/Contact";
 import Products from "../components/Home/Products";
 import Help from "../components/Home/Help";
+import Footer from "../components/Layout/Footer";
 const Home = () => {
 	return (
 		<>
@@ -18,7 +19,7 @@ const Home = () => {
 			<FeaturedProducts />
 			<Products />
 			<Help />
-			<div className="min-h-screen bg-white"></div>
+			<Footer />
 		</>
 	);
 };
